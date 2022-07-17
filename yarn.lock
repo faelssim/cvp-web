@@ -1001,6 +1001,14 @@
   resolved "https://registry.npmmirror.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@icon-park/vue@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@icon-park/vue/-/vue-1.4.2.tgz#bc3811d79fc7cfa0be3be62475d6ea9c3c4af169"
+  integrity sha512-YXXC53R0hjM76B2M4ANRI0m2bQB1cifUW+YXxQfGofITP6gr+pSMafBz/vzECYSkW3zZklm2mVuqQj4RAZGR2Q==
+  dependencies:
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    csstype "^3.0.3"
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -1285,7 +1293,7 @@
   dependencies:
     "@types/node" "*"
 
-"@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0", "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
   resolved "https://registry.npmmirror.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.2.1.tgz#31624a7a505fb14da1d58023725a4c5f270e6a81"
   integrity sha512-QOi5OW45e2R20VygMSNhyQHvpdUwQZqGPc748JLGCYEy+yp8fNFNdbNIGAgZmi9e+2JHPd6i6idRuqivyicIkA==
@@ -2703,7 +2711,7 @@ csso@^4.2.0:
   dependencies:
     css-tree "^1.1.2"
 
-csstype@^3.1.0:
+csstype@^3.0.3, csstype@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
@@ -4250,10 +4258,10 @@ klona@^2.0.5:
   resolved "https://registry.npmmirror.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
   integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
 
-kux-ui@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/kux-ui/-/kux-ui-0.2.0.tgz#7291c917da1e49a688756e871847a971b2c2b0df"
-  integrity sha512-DrGG8lyzrGC4BA36JpbS2+g+/Cs39wPRxH52pYJImSFjxz9ngJST0geYVMItHMBSAB2xQBUIznnOyYc3K/9XLQ==
+kux-ui@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/kux-ui/-/kux-ui-0.3.0.tgz#54c6b9d7eb76fb2ff74835586fd20556cef4b91a"
+  integrity sha512-kXbMfrkMPEmIcZLHZkH8o2YDIIjW5G9orOF2KMQTuYw/BTVU3HVNPfCZMeTWLYpMN2ygX6sxMY+tbRMGDRl8rQ==
   dependencies:
     core-js "^3.6.5"
     element-ui "^2.15.9"

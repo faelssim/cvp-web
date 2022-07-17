@@ -10,7 +10,7 @@ import KuxUI from 'kux-ui'
 import router from './router'
 import App from './App.vue'
 
-import './style/reset.css'
+import 'kux-ui/src/style/reset.css'
 import './theme/theme.css'
 
 Vue.use(KuxUI)
