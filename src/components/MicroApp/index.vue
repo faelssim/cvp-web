@@ -12,7 +12,11 @@
 import { loadMicroApp } from 'qiankun'
 export default {
     mounted () {
-        console.log(this.$route)
+        loadMicroApp({
+            name: 'AccountManage',
+            entry: 'http://192.168.0.106:8082', // 本机运行子项目的地址
+            container: '#micro-app'
+        })
     }
 }
 </script>

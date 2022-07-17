@@ -30,7 +30,7 @@ const routes = [
                 path: 'aws',
                 component: InnerLayout,
                 children: [
-                    { path: '*', component: MicroApp, meta: { title: 'MicroApp' } }
+                    { path: '*', component: MicroApp, meta: { title: '' } }
                 ]
             }
         ]

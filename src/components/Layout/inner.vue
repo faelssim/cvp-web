@@ -29,7 +29,7 @@ export default {
     watch: {
         '$route': {
             handler: function ({ meta, matched }) {
-                this.viewTitle = meta.title
+                this.viewTitle = '页面标题'
                 this.isHiddenBreadcrumb = meta[HIDDEN_BREADCRUMB] === true
             },
             immediate: true

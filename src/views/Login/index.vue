@@ -82,7 +82,7 @@ export default {
             } else if (!code && false) {
                 this.notPassText = '请填写校验码'
             } else {
-                this.$router.push('/main/home')
+                this.$router.push('/main/aws/manage')
             }
         },
         handleListenerTap (e) {
