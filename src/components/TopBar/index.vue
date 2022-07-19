@@ -1,7 +1,7 @@
 <!--
  * @Author: wangkun
  * @Date: 2022-07-15 15:12:08
- * @LastEditTime: 2022-07-15 15:13:14
+ * @LastEditTime: 2022-07-19 11:00:10
  * @LastEditors: wangkun
  * @Description: 
 -->
@@ -68,7 +68,7 @@ export default {
     --height: 60px;
     width: 100%;
     height: var(--height);
-    background: #fb8800;
+    background: var(--main-color);
     flex-shrink: 0;
     box-sizing: border-box;
     justify-content: space-between;

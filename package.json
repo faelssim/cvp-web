@@ -10,7 +10,7 @@
   "dependencies": {
     "@icon-park/vue": "^1.4.2",
     "core-js": "^3.8.3",
-    "kux-ui": "^1.0.1",
+    "kux-ui": "^1.0.2",
     "qiankun": "^2.7.4",
     "vue": "^2.6.14",
     "vue-router": "3.4.8"
