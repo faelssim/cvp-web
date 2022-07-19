@@ -57,7 +57,7 @@ export default {
         padding: calc(var(--title-height) + 30px) 30px 30px;
         border-radius: 15px;
         box-shadow: 0 0 0 1px #e5e5e5;
-        overflow: hidden;
+        // overflow: hidden;
         position: relative;
         &:before{
             content: attr(data-title);
