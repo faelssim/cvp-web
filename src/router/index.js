@@ -27,7 +27,7 @@ const routes = [
         children: [
             { path: 'home', component: () => import('../views/Home/index') },
             {
-                path: 'aws',
+                path: 'permission',
                 component: InnerLayout,
                 children: [
                     { path: '*', component: MicroApp, meta: { title: '' } }
