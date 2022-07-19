@@ -94,7 +94,7 @@ export default {
     }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .cvp-login{
     width: 100vw;
     height: 100vh;

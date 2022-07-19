@@ -1,14 +1,14 @@
 <!--
  * @Author: wangkun
  * @Date: 2022-07-15 15:46:45
- * @LastEditTime: 2022-07-15 15:54:23
+ * @LastEditTime: 2022-07-19 08:19:13
  * @LastEditors: wangkun
  * @Description: 
 -->
 <template>
     <div class="web-app-breadcrumb"></div>
 </template>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .web-app-breadcrumb{
     width: 100%;
     flex: 0 0 70px;

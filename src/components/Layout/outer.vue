@@ -1,7 +1,7 @@
 <!--
  * @Author: wangkun
  * @Date: 2022-07-15 14:14:16
- * @LastEditTime: 2022-07-15 16:56:38
+ * @LastEditTime: 2022-07-19 08:32:20
  * @LastEditors: wangkun
  * @Description:
 -->
@@ -26,7 +26,7 @@ export default {
   components: { TopBar}
 }
 </script>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .web-app-container{
   width: 100vw;
   height: 100vh;

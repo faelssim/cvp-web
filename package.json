@@ -10,7 +10,7 @@
   "dependencies": {
     "@icon-park/vue": "^1.4.2",
     "core-js": "^3.8.3",
-    "kux-ui": "^0.3.0",
+    "kux-ui": "^1.0.1",
     "qiankun": "^2.7.4",
     "vue": "^2.6.14",
     "vue-router": "3.4.8"
@@ -23,8 +23,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "node-sass": "4.14.1",
-    "sass-loader": "7.3.1",
+    "less-loader": "6.0.0",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {

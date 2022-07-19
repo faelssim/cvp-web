@@ -59,7 +59,7 @@ export default {
     }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .flex-row{
     display: flex;
     align-items: center;
